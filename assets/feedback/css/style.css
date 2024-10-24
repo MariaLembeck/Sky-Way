@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: #e0f4f7;
     display: flex;
@@ -7,7 +9,7 @@ body {
 }
 
 nav {
-    background-color:#629299;;
+    background-color:#629299;
     height: 65px;
 }
 
@@ -112,8 +114,10 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row;
     margin-top: 150px;
+    background-color:#629299;;
+    height: 320px;
+    box-shadow: 0px 0px 20px #000000;
 }
 
 .emojis img {
@@ -123,4 +127,19 @@ h1 {
 .emojis img:hover {
     transform: scale(1.1);
     transition:0.3s;
+}
+
+.opn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opn p {
+    color: #294c4e;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
