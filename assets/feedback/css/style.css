@@ -1,0 +1,126 @@
+body {
+    background-color: #e0f4f7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+nav {
+    background-color:#629299;;
+    height: 65px;
+}
+
+.all {
+    height: 100vh;
+    position: absolute;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #f4fffe;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+ul {
+    background-color:#629299;
+    margin: 0;
+    padding-left: 30px;
+    width: 120px;
+    height: calc(100vh - 58px);
+    display: none;
+}
+
+li {
+    display: flex;
+    color: #ffffff;
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.user-parent {
+    width: 100%;
+}
+
+.user-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.background {
+    background-color: rgb(243, 255, 255);
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-solid {
+    color: rgb(112, 153, 165);
+}
+
+h5 {
+    margin-left: 10px;
+    color: rgb(226, 241, 243);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #294c4e;
+}
+
+.emojis {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.emojis img {
+    width: 250px;
+}
+
+.emojis img:hover {
+    transform: scale(1.1);
+    transition:0.3s;
+}

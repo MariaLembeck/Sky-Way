@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e0f4f7;
+}
+
+nav {
+    background-color:#629299;;
+    height: 65px;
+}
+
+.all {
+    height: 100vh;
+    position: absolute;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #f4fffe;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+ul {
+    background-color:#629299;
+    margin: 0;
+    padding-left: 30px;
+    width: 120px;
+    height: calc(100vh - 58px);
+    display: none;
+}
+
+li {
+    display: flex;
+    color: #ffffff;
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.user-parent {
+    width: 100%;
+}
+
+.user-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.background {
+    background-color: rgb(243, 255, 255);
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fa-solid {
+    color: rgb(112, 153, 165);
+}
+
+h5 {
+    margin-left: 10px;
+    color: rgb(226, 241, 243);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+
+h1 {
+    color: #e0f4f7;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #577b7e;
+    height: 50px;
+    color: #f1f1f1;
+    margin-top: 273px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+.lugares {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+
+    .paris {
+        box-shadow: -6px 6px 20px #00000070;
+        background-color: #4e7c83ce;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height: 350px;
+        width: 400px;
+        background-image: url('https://oficinadeinverno.com.br/cdn/shop/articles/eiffel-tower-sunrise1.jpg?v=1659494576');
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: 0px 85px;
+        cursor: pointer;
+    }
+
+    .hawaii {
+        box-shadow: -6px 6px 20px #00000070;
+        background-color: #4e7c83ce;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height: 350px;
+        width: 400px;
+        background-image: url('https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/33/f4/70/caption.jpg');
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: 0px 85px;
+        cursor: pointer;
+    }
+
+    .dubai {
+        box-shadow: -6px 6px 20px #00000070;
+        background-color: #4e7c83ce;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height: 350px;
+        width: 400px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg/640px-Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg');
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: 0px 85px;
+        cursor: pointer;
+
+    }
+
+    .dubai:hover {
+        transition: ease-in 0.3s;
+        transform: translateY(-24px);
+    }
+
+    .hawaii:hover {
+        transition: ease-in 0.3s;
+        transform: translateY(-24px);
+    }
+
+    .paris:hover {
+        transition: ease-in 0.3s;
+        transform: translateY(-24px);
+    }
+}
