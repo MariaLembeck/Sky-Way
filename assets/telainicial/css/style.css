@@ -21,6 +21,22 @@ nav {
     padding-top: 15px;
 }
 
+.card-button{
+   color:#fff;
+   background-color: 629299;
+   border-radius: 50%;
+   cursor:pointer;
+   border: 2px solid #0000
+
+}
+
+.nav{
+    display:inline-block;
+    justify-content: space-around;
+}
+
+
+
 .bar1,
 .bar2,
 .bar3 {
@@ -130,6 +146,21 @@ h2 {
     display: flex;
     justify-content: space-around;
     margin-top: 200px;
+ 
+    .EUA{ 
+        box-shadow: -6px 6px 20px #00000070;
+        background-color: #4e7c83ce;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height: 350px;
+        width: 400px;
+        background-image: url("https://blog.123milhas.com/wp-content/uploads/2022/03/BANNER-CIDADES-CONHECER-EUA-123MILHAS.jpg");
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: 0px 85px;
+        cursor: pointer;
+    }
+    
 
     .paris {
         box-shadow: -6px 6px 20px #00000070;
@@ -187,5 +218,10 @@ h2 {
     .paris:hover {
         transition: ease-in 0.3s;
         transform: translateY(-24px);
+    }
+
+    .EUA:hover {
+        transition: ease-in 0.3s;
+        transform: translateY(-24px)
     }
 }
